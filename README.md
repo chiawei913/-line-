@@ -8,4 +8,4 @@
 
 <h3>1.選擇語言</h3>
 <br>
-<img src="/images/1.jpg" alt=""  width="200px" height="300px">
+<img src="/images/1.jpg" alt=""  width="500px" height="600px">
