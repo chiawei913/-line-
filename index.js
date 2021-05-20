@@ -592,32 +592,32 @@ bot.on('postback', async event => {
     if (temp > 30) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52594/52594011/5259401_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52594/52594011/5259401_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/30.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/30.jpg'
       })
     } else if (temp > 25 && temp <= 30) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52902/52902011/5290201_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52902/52902011/5290201_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/25.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/25.jpg'
       })
     } else if (temp > 20 && temp <= 25) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52283/52283031/5228303_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52283/52283031/5228303_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/20.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/20.jpg'
       })
     } else if (temp > 15 && temp <= 20) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/50461/50461041/5046104_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/50461/50461041/5046104_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/15.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/15.jpg'
       })
     } else if (temp <= 15) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/44232/44232011/4423201_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/44232/44232011/4423201_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/10.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/10.jpg'
       })
     }
   } else if (event.postback.data.slice(0, 33) === 'Suitable outfits to wear this day') {
@@ -625,32 +625,32 @@ bot.on('postback', async event => {
     if (temp > 30) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52594/52594011/5259401_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52594/52594011/5259401_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/30.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/30.jpg'
       })
     } else if (temp > 25 && temp <= 30) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52902/52902011/5290201_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52902/52902011/5290201_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/25.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/25.jpg'
       })
     } else if (temp > 20 && temp <= 25) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/52283/52283031/5228303_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/52283/52283031/5228303_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/20.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/20.jpg'
       })
     } else if (temp > 15 && temp <= 20) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/50461/50461041/5046104_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/50461/50461041/5046104_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/15.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/15.jpg'
       })
     } else if (temp <= 15) {
       event.reply({
         type: 'image',
-        originalContentUrl: 'https://s4.lativ.com.tw/i/44232/44232011/4423201_500.jpg',
-        previewImageUrl: 'https://s4.lativ.com.tw/i/44232/44232011/4423201_500.jpg'
+        originalContentUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/10.jpg',
+        previewImageUrl: 'https://raw.githubusercontent.com/chiawei913/-line-/main/images/10.jpg'
       })
     }
   }
